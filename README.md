@@ -10,7 +10,7 @@ master | 3.3.5
 [![master Build status](https://ci.appveyor.com/api/projects/status/54d0u1fxe50ad80o/branch/master?svg=true)](https://ci.appveyor.com/project/DDuarte/trinitycore/branch/master) | [![Build status](https://ci.appveyor.com/api/projects/status/54d0u1fxe50ad80o/branch/3.3.5?svg=true)](https://ci.appveyor.com/project/DDuarte/trinitycore/branch/3.3.5)
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/435/badge.svg)](https://scan.coverity.com/projects/435) | [![Coverity Scan Build Status](https://scan.coverity.com/projects/4656/badge.svg)](https://scan.coverity.com/projects/4656)
 
-## Introduction
+## Introdução
 
 TrinityCore is a *MMORPG* Framework based mostly in C++.
 
@@ -27,14 +27,14 @@ make pull requests to our [Github repository](https://github.com/TrinityCore/Tri
 For further information on the TrinityCore project, please visit our project
 website at [TrinityCore.org](https://www.trinitycore.org).
 
-## Requirements
+## Sistema
 
 
 Software requirements are available in the [wiki](https://www.trinitycore.info/display/tc/Requirements) for
 Windows, Linux and OS X.
 
 
-## Install
+## Instalação
 
 Detailed installation guides are available in the [wiki](https://www.trinitycore.info/display/tc/Installation+Guide) for
 Windows, Linux and OS X.
