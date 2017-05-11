@@ -18,6 +18,9 @@
 // This is where scripts' loading functions should be declared:
 void AddSC_Transmogrification();
 void AddSC_REFORGER_NPC();
+void AddSC_System_Censure();
+void AddSC_Professions_NPC();
+void AddSC_npc_enchantment();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
@@ -26,4 +29,7 @@ void AddCustomScripts()
 {
     AddSC_Transmogrification();
 	AddSC_REFORGER_NPC();
+	AddSC_System_Censure();
+	AddSC_Professions_NPC();
+	AddSC_npc_enchantment();
 }

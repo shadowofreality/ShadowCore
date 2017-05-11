@@ -223,7 +223,7 @@ void WorldSession::HandleWhoOpcode(WorldPacket& recvData)
 
         wstrToLower(str[i]);
 
-        TC_LOG_DEBUG("network", "String %u: %s", i, temp.c_str());
+		TC_LOG_DEBUG("network", "String %u: %s", i, temp.c_str());
     }
 
     std::wstring wpacketPlayerName;
@@ -342,7 +342,7 @@ void WorldSession::HandleWhoOpcode(WorldPacket& recvData)
         ++displayCount;
     }
 
-    data.put(0, displayCount);                            // insert right count, count displayed
+	data.put(0, displayCount);                            // insert right count, count displayed
     data.put(4, matchCount);                              // insert right count, count of matches
 
     SendPacket(&data);

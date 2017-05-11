@@ -1018,6 +1018,7 @@ enum TrinityStrings
     LANG_BG_IC_REFINERY                 = 1222,
     LANG_BG_IC_QUARRY                   = 1223,
     LANG_BG_IC_HANGAR                   = 1224,
+
     //                                    1225-1299
     LANG_BG_IC_ALLIANCE                 = 1300,
     LANG_BG_IC_HORDE                    = 1301,

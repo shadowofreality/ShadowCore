@@ -132,7 +132,7 @@ extern int main(int argc, char** argv)
 
     TC_LOG_INFO("server.worldserver", "%s (worldserver-daemon)", GitRevision::GetFullVersion());
     TC_LOG_INFO("server.worldserver", "<Ctrl-C> para fechar.\n");
-    TC_LOG_INFO("server.worldserver", "SHADOWCORE 1.0 \n");
+    TC_LOG_INFO("server.worldserver", "SHADOWCORE 1.1 \n");
 	TC_LOG_INFO("server.worldserver", "WORLD OF WARCRAFT 3.3.5a SERVER \n");
     TC_LOG_INFO("server.worldserver", "http://wowrevolution.com.br  \n");
     TC_LOG_INFO("server.worldserver", "Usando arquivo de configuração %s.", sConfigMgr->GetFilename().c_str());
