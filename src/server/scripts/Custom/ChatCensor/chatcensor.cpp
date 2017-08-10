@@ -56,7 +56,7 @@ public:
 
 			if (lower.find(moton) != std::string::npos)
 			{
-				msg = "WoW Revolution 3.3.5a entre e jogue! set realmlist www.wowrevolution.com.br";
+				msg = "C E N S U R A D O";
 				ChatHandler(player->GetSession()).PSendSysMessage("Bonito ein! Isso é contra as regras do servidor!");
 				return;
 			}

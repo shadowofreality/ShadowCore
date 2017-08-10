@@ -21,6 +21,8 @@ void AddSC_REFORGER_NPC();
 void AddSC_System_Censure();
 void AddSC_Professions_NPC();
 void AddSC_npc_enchantment();
+void AddSC_level_npc();
+void AddSC_Teleporter_NPC();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
@@ -31,5 +33,7 @@ void AddCustomScripts()
 	AddSC_REFORGER_NPC();
 	AddSC_System_Censure();
 	AddSC_Professions_NPC();
+	AddSC_level_npc();
 	AddSC_npc_enchantment();
+	AddSC_Teleporter_NPC();
 }

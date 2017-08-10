@@ -132,9 +132,9 @@ extern int main(int argc, char** argv)
 
     TC_LOG_INFO("server.worldserver", "%s (worldserver-daemon)", GitRevision::GetFullVersion());
     TC_LOG_INFO("server.worldserver", "<Ctrl-C> para fechar.\n");
-    TC_LOG_INFO("server.worldserver", "SHADOWCORE 1.1 \n");
-	TC_LOG_INFO("server.worldserver", "WORLD OF WARCRAFT 3.3.5a SERVER \n");
-    TC_LOG_INFO("server.worldserver", "http://wowrevolution.com.br  \n");
+    TC_LOG_INFO("server.worldserver", "SHADOWCORE 1.2 \n");
+	TC_LOG_INFO("server.worldserver", "WORLD OF WARCRAFT\n");
+    TC_LOG_INFO("server.worldserver", "SERVIDOR WOW 3.3.5a  \n");
     TC_LOG_INFO("server.worldserver", "Usando arquivo de configuração %s.", sConfigMgr->GetFilename().c_str());
     TC_LOG_INFO("server.worldserver", "Usando versão do SSL: %s (biblioteca: %s)", OPENSSL_VERSION_TEXT, SSLeay_version(SSLEAY_VERSION));
     TC_LOG_INFO("server.worldserver", "Usando Versão do Boost: %i.%i.%i", BOOST_VERSION / 100000, BOOST_VERSION / 100 % 1000, BOOST_VERSION % 100);
